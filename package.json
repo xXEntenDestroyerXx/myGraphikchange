@@ -8,6 +8,7 @@
   "description": "This is an exercise to fetch Data to and from a node.js server",
   "main": "demo_fetchData.js",
   "scripts": {
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
