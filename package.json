@@ -1,6 +1,10 @@
 {
   "name": "another-example",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "description": "This is an exercise to fetch Data to and from a node.js server",
   "main": "demo_fetchData.js",
   "scripts": {
