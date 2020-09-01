@@ -19,6 +19,10 @@ document.getElementById('post5').addEventListener('click', event => {
     fetchPost(5);
 })
 
+document.getElementById('post0').addEventListener('click', event => {
+    fetchPost(0);
+})
+
 function fetchPost(message){
     const data = {message};
     const options = {
