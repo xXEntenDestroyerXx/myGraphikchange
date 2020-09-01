@@ -1,6 +1,25 @@
 console.log('Hello World!')
 document.getElementById('post1').addEventListener('click', event => {
-    const message = 1;
+    fetchPost(1);
+})
+
+document.getElementById('post2').addEventListener('click', event => {
+    fetchPost(2);
+})
+
+document.getElementById('post3').addEventListener('click', event => {
+    fetchPost(3);
+})
+
+document.getElementById('post4').addEventListener('click', event => {
+    fetchPost(4);
+})
+
+document.getElementById('post5').addEventListener('click', event => {
+    fetchPost(5);
+})
+
+function fetchPost(message){
     const data = {message};
     const options = {
         method: 'POST',
@@ -12,5 +31,4 @@ document.getElementById('post1').addEventListener('click', event => {
     fetch('/api', options).then(response => {
         console.log(response.json());
     });
-})
-//
+}
