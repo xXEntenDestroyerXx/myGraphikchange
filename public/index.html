@@ -1,18 +1,58 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Grafikauswahl</title>
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-  <h1>Wähle eine Grafik aus!</h1>
-  <input type="image" alt="standing Mario" id="post1" src="/images/standingMario.png"></input>
-  <input type="image" alt="jumping Mario" id="post2" src="/images/jumpingMario.png"></input>
-  <input type="image" alt="Boo" id="post3" src="/images/Boo.png"></input>
-  <input type="image" alt="shy Boo" id="post4" src="/images/shyBoo.png"></input>
-  <input type="image" alt="Pokeball" id="post5" src="/images/Pokeball.png"></input>
+  <h1 class="heading">Wähle eine Grafik aus!</h1>
+  <div class="gallery-image">
+    <div class="img-box">
+      <input type="image" alt="standing Mario" id="post1" src="/images/standingMario.png"></input>
+      <div class="transparent-box">
+        <div class="caption">
+          <p>stehender Mario</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <input type="image" alt="jumping Mario" id="post2" src="/images/jumpingMario.png"></input>
+      <div class="transparent-box">
+        <div class="caption">
+          <p>springender Mario</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <input type="image" alt="Boo" id="post3" src="/images/Boo.png"></input>
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Buu Huu</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <input type="image" alt="shy Boo" id="post4" src="/images/shyBoo.png"></input>
+      <div class="transparent-box">
+        <div class="caption">
+          <p>schüchtener Buu Huu</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <input type="image" alt="Pokeball" id="post5" src="/images/pokeball.png"></input>
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Pokeball</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="client.js"></script>
 </body>
+
 </html>
