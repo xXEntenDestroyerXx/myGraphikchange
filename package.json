@@ -22,5 +22,14 @@
     "express": "^4.17.1",
     "mqtt": "^4.2.1"
   },
-  "outputPath": "dist"
+  "outputPath": "dist",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xXEntenDestroyerXx/Graphic-Change.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xXEntenDestroyerXx/Graphic-Change/issues"
+  },
+  "homepage": "https://github.com/xXEntenDestroyerXx/Graphic-Change#readme"
 }
