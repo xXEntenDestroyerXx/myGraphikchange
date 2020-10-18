@@ -21,9 +21,9 @@ var mqtt = require('mqtt')
 var client = mqtt.connect('mqtt://broker.mqttdashboard.com')
 
 client.on('connect', function () {
-    client.subscribe('myGrafikchange', function (err) {
+    client.subscribe('grafikchange', function (err) {
         if (!err) {
-            client.publish('myGrafikchangeNew', 'Hello mqtt')
+            client.publish('grafikchangeNew', 'Hello mqtt')
         }
     })
 })
@@ -35,7 +35,7 @@ client.on('message', function (topic, message) {
 })
 
 function publish(message) {
-    client.publish('myGrafikchange', message.toString())
+    client.publish('grafikchange', message.toString())
 }
 //den responseinhalt an den mqtt broker senden
 
